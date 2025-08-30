@@ -10,6 +10,7 @@ from nltk import pos_tag, word_tokenize
 
 # Download NLTK resources (only first time)
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('stopwords')
 
