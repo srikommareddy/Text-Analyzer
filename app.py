@@ -15,7 +15,7 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('averaged_perceptron_tagger_eng')
 nltk.download('stopwords')
 
-st.set_page_config(page_title="Text Processing App", layout="wide")
+st.set_page_config(page_title="Reviews Text Analyzer App", layout="wide")
 
 st.title("📑 Text Processing ML App")
 
