@@ -17,7 +17,7 @@ nltk.download('stopwords')
 
 st.set_page_config(page_title="Reviews Text Analyzer App", layout="wide")
 
-st.title("📑 Text Processing ML App")
+st.title("📑 Reviews Text Analyzer ML App")
 
 uploaded_file = st.file_uploader("Upload a text file", type=["txt"])
 
