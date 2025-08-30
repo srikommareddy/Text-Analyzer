@@ -12,6 +12,7 @@ from nltk import pos_tag, word_tokenize
 nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
 nltk.download('stopwords')
 
 st.set_page_config(page_title="Text Processing App", layout="wide")
